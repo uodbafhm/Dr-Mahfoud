@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
     const whatsappNumber = CLINIC_INFO.whatsapp.replace('+', '');
     
     const text = language === 'AR' 
-      ? `مرحباً عيادة الدكتور محفوظ، أود حجز موعد جديد:
+      ? `السلام عليكم دكتور محفوظ، أود حجز موعد جديد:
 
 👤 *المريض* : ${formData.name}
 📞 *الهاتف* : ${formData.phone}
